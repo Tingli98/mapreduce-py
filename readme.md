@@ -3,6 +3,8 @@
 This is a Python projects that contains two MapReduce applications:
     - Word Count
     - Flights By Carriers
+    - Flights By Origin
+    - Flights By Destination
 
 ## Assumption
 
@@ -17,10 +19,21 @@ Need to use cisc-525-util repository to:
 ./word_count_run.sh /user/student/shakespeare/tragedy/othello.txt /tmp/othello
 ```
 
-## Run airline performance MR application
+## Run airline performance MR application 
 
+### Flights by Carries
 ```shell script
-./fbc_run.sh /user/student/airline/1987.csv /tmp/1987
+./fbc_run.sh /user/student/airline/2003.csv /tmp/2003
+```
+
+###Flights by Origin
+```shell script
+./fbo_run.sh /user/student/airline/2003.csv /tmp/2003_fbo
+```
+
+###Flights by Destination
+```shell script
+./fbd_run.sh /user/student/airline/2003.csv /tmp/2003_fbd
 ```
 
 ## Unit test
