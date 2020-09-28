@@ -9,7 +9,7 @@ echo './fbc_run.sh input-path output-path'
 hdfs dfs -rm -r $2
 yarn jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming*.jar \
   -mapper app/FlightsByCarriersMapper.py \
-  -reducer app/FlightsByCarriersReducer.py -input $1 -output $2
+  -reducer app/FlightsByCarriersReducer.py -file app/FlightsByCarriersMapper.py -file app/FlightsByCarriersReducer.py -input $1 -output $2
 
 value=$(hdfs dfs -cat $2/part-00000)
 value=$(echo $value | sed -r 's/\t/ /g')

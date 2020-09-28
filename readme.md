@@ -1,10 +1,8 @@
 # Mapreduce programming with Python
 
-This is a Python projects that contains four MapReduce applications:
+This is a Python projects that contains two MapReduce applications:
     - Word Count
     - Flights By Carriers
-    -Flights by Destination
-    -Flight by Origin
 
 ## Assumption
 
@@ -24,16 +22,6 @@ Need to use cisc-525-util repository to:
 ```shell script
 ./fbc_run.sh /user/student/airline/1987.csv /tmp/1987
 ```
-
-## Run airline performance MR application, flight by destination
-
-```shell script
-./fbd_run.sh /user/student/airline/2000.csv /tmp/2000
-
-## Run airline performance MR application, flight by Origin
-
-```shell script
-./fbo_run.sh /user/student/airline/2000.csv /tmp/2000
 
 ## Unit test
 

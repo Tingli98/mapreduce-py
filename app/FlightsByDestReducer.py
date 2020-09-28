@@ -36,8 +36,8 @@ class FlightsByDestReducer:
 # Main
 
 def main(argv):
-    flights_by_Dest_reducer = FlightsByDestReducer()
-    flights_by_Dest_reducer.reduce()
+    flights_by_destination_reducer = FlightsByDestReducer()
+    flights_by_destination_reducer.reduce()
 
 
 if __name__ == "__main__":

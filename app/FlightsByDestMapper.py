@@ -15,8 +15,8 @@ class FlightsByDestMapper:
 
 
 def main(argv):
-    flights_by_Dest_mapper = FlightsByDestMapper()
-    flights_by_Dest_mapper.mapping()
+    flights_by_destination_mapper = FlightsByDestMapper()
+    flights_by_destination_mapper.mapping()
 
 
 if __name__ == "__main__":

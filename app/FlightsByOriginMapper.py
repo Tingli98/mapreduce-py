@@ -15,8 +15,8 @@ class FlightsByOriginMapper:
 
 
 def main(argv):
-    flights_by_Origin_mapper = FlightsByOriginMapper()
-    flights_by_Origin_mapper.mapping()
+    flights_by_origin_mapper = FlightsByOriginMapper()
+    flights_by_origin_mapper.mapping()
 
 
 if __name__ == "__main__":

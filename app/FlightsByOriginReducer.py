@@ -36,8 +36,8 @@ class FlightsByOriginReducer:
 # Main
 
 def main(argv):
-    flights_by_Origins_reducer = FlightsByOriginReducer()
-    flights_by_Origin_reducer.reduce()
+    flights_by_origin_reducer = FlightsByOriginReducer()
+    flights_by_origin_reducer.reduce()
 
 
 if __name__ == "__main__":
