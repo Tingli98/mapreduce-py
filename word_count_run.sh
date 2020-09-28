@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 echo './word_count_run.sh input-path output-path'
 hdfs dfs -rm -r $2
-yarn jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming*.jar -mapper app/WordCountMapper.py \
-  -reducer app/WordCountReducer.py -input $1 -output $2
+hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.2.0.jar -mapper 'python3 app/WordCountMapper.py' \
+  -reducer 'python3 app/WordCountReducer.py' -input $1 -output $2
 
 wc_value=$(hdfs dfs -cat $2/part-00000 | wc)
 

@@ -23,6 +23,16 @@ Need to use cisc-525-util repository to:
 ./fbc_run.sh /user/student/airline/1987.csv /tmp/1987
 ```
 
+## Run airline performance MR application, flight by destination
+
+```shell script
+./fbd_run.sh /user/student/airline/1987.csv /tmp/1987
+
+## Run airline performance MR application, flight by origin
+
+```shell script
+./fbo_run.sh /user/student/airline/1987.csv /tmp/1987
+
 ## Unit test
 
 ```shell script
