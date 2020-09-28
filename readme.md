@@ -21,17 +21,17 @@ Need to use cisc-525-util repository to:
 
 ## Run airline performance MR application 
 
-### Flights by Carries
+Flights by Carries
 ```shell script
 ./fbc_run.sh /user/student/airline/2003.csv /tmp/2003
 ```
 
-###Flights by Origin
+Flights by Origin
 ```shell script
 ./fbo_run.sh /user/student/airline/2003.csv /tmp/2003_fbo
 ```
 
-###Flights by Destination
+Flights by Destination
 ```shell script
 ./fbd_run.sh /user/student/airline/2003.csv /tmp/2003_fbd
 ```
