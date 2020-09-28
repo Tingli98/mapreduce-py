@@ -1,8 +1,10 @@
 # Mapreduce programming with Python
 
-This is a Python projects that contains two MapReduce applications:
+This is a Python projects that contains four MapReduce applications:
     - Word Count
     - Flights By Carriers
+    -Flights by Destination
+    -Flight by Origin
 
 ## Assumption
 
